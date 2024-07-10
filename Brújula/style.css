@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cuadro{
+    background-color: #efefef;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 5vw;
+    margin: 0 auto;
+    margin-top: 25vw;
+    box-shadow: 1;
+    box-shadow: 0 30px 20px #ccc,
+    0 30px 30px rgba(0,0,0,0.25),
+    0 28px 0 rgba(0,0,0,0.5),
+    0 50px 60px rgba(0,0,0,0.1);
+}
+
+.circulo{
+    background-color: #1eabf6;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 30vw;
+    margin: 0 auto;
+    z-index: 2;
+    margin-top: -32.5vw;
+}

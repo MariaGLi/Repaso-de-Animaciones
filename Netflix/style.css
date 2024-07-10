@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 20vw;
+    margin-top: 25vw;
+}
+
+.raya{
+    background-color: #d60001;
+    width: 6vw;
+    height: 0vw;
+    position: absolute;
+    animation-name: raya;
+    animation-duration: 15s;
+}
+.vuelta{
+    rotate: 180deg;
+    position: absolute;
+    margin-top: 35vw;
+    margin-left: 6vw;
+}
+
+.raya2{
+    background-color: #d60001;
+    width: 6vw;
+    height: 0vw;
+    position: absolute;
+    margin-left: 6.5vw;
+    z-index: 2;
+    box-shadow: 1px 1px 40px black;
+    animation-name: raya2;
+    animation-duration: 10s;
+    animation-delay: 4s;
+}
+
+.raya3{
+    background-color: #d60001;
+    width: 6vw;
+    height: 0vw;
+    position: absolute;
+    margin-left: 12.8vw;
+    animation-name: raya3;
+    animation-duration: 10s;
+    animation-delay: 8s;
+}
+.vuelta2{
+    rotate: 180deg;
+    position: absolute;
+    margin-left: 31.6vw;
+    margin-top: 35vw;
+}
+
+@keyframes raya{
+    0%{
+        height: 0vw;
+    }
+    40%{
+        height: 35vw;
+    }
+    100%{
+        height: 35vw;
+    }
+}
+
+@keyframes raya2{
+    0%{
+        height: 0vw;
+    }
+    40%{
+        height: 35vw;
+        transform: skew(20deg);
+    }
+    100%{
+        height: 35vw;
+        transform: skew(20deg);
+    }
+}
+
+@keyframes raya3{
+    0%{
+        height: 0vw;
+    }
+    40%{
+        height: 35vw;
+    }
+    100%{
+        height: 35vw;
+    }
+}
